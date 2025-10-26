@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  padding: 30px 20px;
+}
+
+header {
+  background: linear-gradient(to right, #d4af37, #c0c0c0);
+  color: #1c1c1c;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #1c1c1c;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+.links h2 {
+  color: #d4af37;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  background-color: #2e2e2e;
+  color: #c0c0c0;
+  border: 2px solid #d4af37;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #d4af37;
+  color: #1c1c1c;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e2e2e;
+  color: #c0c0c0;
+}
+
+.botao {
+    border: 2px solid #d4af37; /* borda dourada */
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+
+.content {
+    background-color: #2e2e2e;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid #d4af37;
+}
+
+a.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #c0c0c0;
+    border: 1px solid #d4af37;
+    padding: 10px 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+a.voltar:hover {
+    background-color: #d4af37;
+    color: #1c1c1c;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  gap: 10px;
+  justify-content: center;
+}
+.question-box {
+  border: 2px dotted #ccc;
+  background: linear-gradient(to right, #dbba4ce8, #dab026e5);
+  color: #1c1c1c;
+  padding: 3px;
+}
+.feedback {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.top-bar {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-size: 28px;
+  color: #f0f0f0;
+  padding: 30px;;
+  background-color: #333;
+  margin-top: 0%;
+}
+
+.div-video {
+  text-align: center;
+  margin: 0px;
+}
+
+.meu-botao {
+  padding: 10px;
+  border: none;
+  background-color: #515151;
+  color: white;
+  border-radius: 8px;
+}
+
+#nota-final {
+  color: #515151;
+  font-size: 20px;
+}
+
+.section {
+  color: #d4af37;
+  border: 1px solid;
+  margin: 10px;
+  background-color: #333; 
+  text-align: center;
+}
+
+#nota-final {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ccc;
+}

@@ -94,6 +94,13 @@ a.voltar:hover {
     color: #1c1c1c;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 32%);
@@ -105,6 +112,7 @@ a.voltar:hover {
   background: linear-gradient(to right, #dbba4ce8, #dab026e5);
   color: #1c1c1c;
   padding: 3px;
+  text-transform: uppercase;
 }
 .feedback {
   margin-left: 10px;
@@ -125,9 +133,13 @@ h1 {
   margin-top: 0%;
 }
 
-.div-video {
-  text-align: center;
-  margin: 0px;
+
+#youtube {
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px; 
+  height: 500px;
+  overflow: hidden;
 }
 
 .meu-botao {
@@ -156,3 +168,64 @@ h1 {
     font-weight: bold;
     color: #ccc;
 }
+
+
+/* Estilo específico para telas menores que 768px (mobile) */
+@media (max-width: 768px) {
+  body {                        
+    font-size: 15px;
+    background-color: #ffffff; /*Organiza o fundo geral e H2 */
+  }
+  body h1 {      
+      font-size: 20px;
+      padding: 25px;
+  }
+  body p {
+      font-size: 18px;
+      margin: 5;   
+  }
+  .botao {   /* Altera os botão do index */
+    border: 2px solid #d4af37;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+    border-radius: 8px;
+    font-size: 1.1em;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  header {
+    padding: 1px;
+    font-size: 15px;
+  }
+  .links h2 {
+    text-align: center;
+    margin-top: 0px;
+  }
+  footer p {
+    margin: 0%;
+    padding: 0%;
+  }
+  #youtube {
+  position: relative;
+  width: 100%;
+  padding-bottom: 10px; 
+  height: 500px;
+  overflow: hidden;
+  }
+
+  .grid {
+    grid-template-columns: 100%;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .question-box {
+  border: 2px dotted #ccc;
+  background: linear-gradient(to right, #dbba4ce8, #dab026e5);
+  color: #1c1c1c;
+  padding: 3px;
+
+    
